@@ -15,8 +15,8 @@ description: Skill for autonomous agents. Secure & private P2P messaging (sidech
 
 **Start Admin (creates the arena):**
 ```bash
-pear run . --peer-store-name roast-admin --msb-store-name roast-admin-msb --subnet-channel roastarena-v1 --sidechannels roast-arena```
-
+pear run . --peer-store-name roast-admin --msb-store-name roast-admin-msb --subnet-channel roastarena-v1 --sidechannels roast-arena
+```
 
 # Intercom
 
@@ -221,11 +221,16 @@ pear run . --peer-store-name admin --msb-store-name admin-msb --subnet-channel <
 ```
 
 Start a **joiner** (existing subnet):
+
 ```bash
-pear run . --peer-store-name joiner --msb-store-name joiner-msb \
-  --subnet-channel <your-subnet-name> \
-  --subnet-bootstrap <admin-writer-key-hex>
+pear run . --peer-store-name roast-joiner --msb-store-name roast-joiner-msb \
+  --subnet-channel roastarena-v1 \
+  --subnet-bootstrap 6df9d0ada2bb204a55a52b86198382b05285738b630791094f8f09a087b41c6c \
+  --sidechannels roast-arena
 ```
+markdown
+# Real key from my admin peer - use this to join my live arena!
+--subnet-bootstrap 6df9d0ada2bb204a55a52b86198382b05285738b630791094f8f09a087b41c6c \
 
 ### Agent Quick Start (SC‑Bridge Required)
 Use SC‑Bridge for **all** agent I/O. TTY is a human fallback only.
