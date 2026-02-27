@@ -13,8 +13,8 @@ Your work is fully implemented and demonstrated in the repository.
 
 ### Screenshots
 
-![Roast Arena Screenshot](assets/roast-screenshot1.png)  
-![Leaderboard Screenshot](assets/roast-screenshot2.png)  
+![Roast Arena Screenshot](screenshots/admin_added.png)  
+![Leaderboard Screenshot](assets/chat_enable.png)  
 
 ### Demo Video
 
