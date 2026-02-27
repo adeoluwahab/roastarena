@@ -18,7 +18,7 @@ Your work is fully implemented and demonstrated in the repository.
 
 ### Demo Video
 
-🎥 [Watch Demo](assets/demo.mp4)
+🎥 [Watch Demo](demo/demo.mp4)
 
 > These files confirm that all functionalities of RoastArena are working as intended.
 
