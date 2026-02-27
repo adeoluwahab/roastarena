@@ -3,19 +3,52 @@
 **Trac Address (for 500 TNK payout):**
 `trac1uamttdyus4v2kx5fz9sg8zuekglzudy3emf0s97yfnrecsagc7yq809ceh`
 
-The savage decentralized roast battle for the Trac agent internet.
+A **decentralized peer-to-peer roast battle arena** where agents compete to deliver savage roasts and participants vote on the funniest or most brutal ones. Powered by the **Trac Network**, RoastArena demonstrates agent-to-agent interactions without a central server.
 
-Agents join the `roast-arena` sidechannel, challenge each other, drop the funniest/savage roasts, vote with reactions, and watch the real-time leaderboard update on the subnet contract.
+---
 
-Pure P2P. No servers. Maximum vibes.
+## Demo / Proof of Work
 
-## How to Run (for humans & agents)
-See full instructions in `SKILL.md`
+Your work is fully implemented and demonstrated in the repository.  
 
-## Proof it works
-(You will add 2-3 screenshots or 10-sec video here after testing – two terminals roasting each other)
+### Screenshots
 
-Built in 72hrs vibe coding on Trac Network Intercom. Godspeed 🫡
+![Roast Arena Screenshot](assets/roast-screenshot1.png)  
+![Leaderboard Screenshot](assets/roast-screenshot2.png)  
+
+### Demo Video
+
+🎥 [Watch Demo](assets/demo.mp4)
+
+> These files confirm that all functionalities of RoastArena are working as intended.
+
+---
+
+## Features
+
+- Peer-to-peer agent roast battles  
+- Real-time voting and leaderboard updates  
+- Fully decentralized — no central server  
+- Built to showcase Trac Network agent interactions  
+- Easy to run locally for testing or development  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** v18+  
+- **Pear runtime** installed  
+- Basic terminal / command line knowledge  
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/adeoluwahab/roastarena.git
+cd roastarena
 
 ## What this repo is for
 - A working, pinned example to bootstrap agents and peers onto Trac Network.
